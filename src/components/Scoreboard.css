@@ -1,6 +1,6 @@
 .scoreboard ul {
     width: 500px;
-    margin: 30px auto;
+    margin: 30px 30px;
     padding: 0;
     box-shadow: 1px 1px 5px rgba(0,0,0, 0.2);
   }
@@ -8,3 +8,15 @@
 .scoreboard h1 {
     text-align: center;
   }
+
+.chart {
+  width: 550px;
+  max-height: 500px;
+  margin: 80px 30px;
+  padding: 0;
+  box-shadow: 1px 1px 5px rgba(0,0,0, 0.2);
+}
+
+.bord-and-chart {
+  display: flex;
+}
